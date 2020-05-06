@@ -30,7 +30,3 @@ function createSlider(id, idInput) {
         labelValue.innerHTML = "Read from sensor every " + inputValue.value + "s."
     });
 }
-
-function plotlyDataUpdate(temperature, humidity, pressure) {
-    Plotly.extendTraces('graphId', {y: [[temperature], [humidity], [pressure]]}, [0, 1, 2] );
-}

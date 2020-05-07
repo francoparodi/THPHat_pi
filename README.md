@@ -16,7 +16,7 @@ A Stats section shows a table with all stored data (due to Settings section).
 
 ![Stats](docs/THPHat_stats.png)
 
-![Demo](docs/THPHat_demo.mp4)
+![Demo](docs/THPHat_demo.gif)
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ gunicorn --worker-class eventlet -w 1 -b localhost:8080 wsgi
 
 ## Deployment
 
-As seen above (gunicorn...) or as any wsgi app.
+As seen above, as any wsgi app.
 
 ## Authors 
 

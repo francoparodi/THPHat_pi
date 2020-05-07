@@ -1,14 +1,22 @@
 # THPHat_pi
 Simple flask webapp dashboard running on [Raspberry Pi](https://www.raspberrypi.org/) and [SenseHat](https://www.raspberrypi.org/products/sense-hat/) shield.
 
+![Home](docs/THPHat_home.png)
+
 Shows temperature, humidity, barometric pressure and relative Plotly graph with autorefresh.
 
 Get sensor values every "n" seconds (due to Settings section).
+
+![Settings](docs/THPHat_settings.png)
 
 Values are sending (websocket) to client according to delta value from
 previous one (minimum delta value to trigger is specified in Setting section).
 
 A Stats section shows a table with all stored data (due to Settings section).
+
+![Stats](docs/THPHat_stats.png)
+
+![Demo](docs/THPHat_demo.mp4)
 
 ## Getting Started
 
